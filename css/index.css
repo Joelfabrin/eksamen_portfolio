@@ -1,0 +1,76 @@
+/*LOGO, BURGER OG BG BILLEDE*/
+
+.hero .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero {
+  position: relative;
+}
+.nav ul li a {
+  color: white;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-weight: 20;
+}
+
+.hero-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: #fefaf1;
+  font-size: 10px;
+}
+
+.hero-bg {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+/*portfolio logo*/
+
+.pf-logo {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+  width: 300px;
+}
+
+/* NAME */
+
+.fornavn {
+  position: absolute;
+  text-align: center;
+  width: max-content;
+  white-space: nowrap;
+  top: 80%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  letter-spacing: 80px;
+}
+
+.efternavn {
+  position: absolute;
+  top: 87%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  letter-spacing: 20px;
+}

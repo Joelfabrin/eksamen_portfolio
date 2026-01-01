@@ -1,0 +1,81 @@
+html {
+  font-family: "Inter", sans-serif;
+  background-color: #fefaf1;
+  color: #1a1a1a;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* HERO  */
+.hero {
+  position: relative;
+  height: 50px;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero-logo {
+  position: absolute;
+  top: -30px;
+  margin-left: 10px;
+  width: 120px;
+  transform: none;
+}
+
+/* BURGER IKON */
+.burger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.burger span {
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+  display: block;
+  border-radius: 1px;
+}
+
+/* MENU  */
+.nav ul {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  align-items: flex-end;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+/* BURGERMENU ÅBEN */
+.nav.open ul {
+  display: flex;
+}
+
+/* LINKS */
+.nav ul li a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
