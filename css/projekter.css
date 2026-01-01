@@ -1,0 +1,150 @@
+/*LOGO OG BURGER*/
+.hero .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero {
+  position: relative;
+}
+.nav ul li a {
+  color: #2c5090;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-weight: 20;
+}
+
+.burger span {
+  background: #2c5090;
+}
+
+/*TITLER OG TEKST*/
+.title {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #672744;
+}
+
+.paragraphs {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #1a1a1a;
+}
+
+#p3 {
+  margin-top: 60px;
+}
+
+.tekstlinje {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  font-size: 28px;
+  font-weight: 200;
+  color: #672744;
+}
+
+/*TEAMER DISCO*/
+
+.lower-bg {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  height: 100vh;
+  margin-top: 1000px;
+}
+
+/* BLOMSTER OG TEKST TEMAER*/
+#blomst2 {
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  color: white;
+}
+
+.tema02 {
+  position: absolute;
+  font-weight: 100;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+/**/
+#blomst3 {
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  color: white;
+}
+
+.tema03 {
+  position: absolute;
+  font-weight: 100;
+  top: 145%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+/**/
+#blomst4 {
+  position: absolute;
+  top: 185%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  color: white;
+}
+
+.tema04 {
+  position: absolute;
+  font-weight: 100;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+/**/
+#blomst5 {
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  color: white;
+}
+
+.tema05 {
+  position: absolute;
+  font-weight: 100;
+  top: 195%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
