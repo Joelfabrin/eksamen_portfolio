@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>FORSIDE</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
           <defs>
             <style>
               .cls-1 {
-                fill: #125296;
+                fill: white;
               }
             </style>
           </defs>
@@ -28,6 +29,32 @@
           />
         </svg>
       </div>
+      <button class="burger" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="projekter.html">PROJEKTER</a></li>
+          <li><a href="om_mig.html">OM MIG</a></li>
+        </ul>
+      </nav>
     </header>
+    <main>
+      <section class="pf-logo">
+        <img src="portfolio.content/portfolio_logo.png" alt="" />
+      </section>
+      <img
+        src="portfolio.content/background.jpeg"
+        alt="background"
+        class="hero-bg"
+      />
+
+      <h2 class="fornavn">JOEL</h2>
+      <h2 class="efternavn">FABRIN</h2>
+    </main>
+    <script src="javascript/main.js"></script>
   </body>
 </html>
