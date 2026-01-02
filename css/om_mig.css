@@ -23,23 +23,119 @@
   background: #2c5090;
 }
 
+/* NAVN OG INFO*/
+.navn {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #1a1a1a;
+  letter-spacing: -3px;
+}
+
+.dato {
+  position: absolute;
+  top: 26%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #1a1a1a;
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+
+.by {
+  position: absolute;
+  top: 31%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #1a1a1a;
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+
+.email {
+  position: absolute;
+  top: 36%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #1a1a1a;
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+
+.linkedin {
+  position: absolute;
+  top: 41%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #1a1a1a;
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+
 /*TITLER OG TEKST*/
 .title {
   position: absolute;
-  top: 30%;
+  top: 55%;
   left: 35%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #672744;
   letter-spacing: 10px;
+  line-height: 75px;
 }
 /* VECTOR STJERNE */
 
 .stjerne {
   position: absolute;
-  top: 25%;
-  left: 60%;
+  top: 55%;
+  left: 65%;
   transform: translate(-50%, -50%);
   width: 130px;
   color: white;
+}
+
+/* VIDEO */
+.video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 410px;
+}
+
+/* TEKST UNDER VIDEO */
+.titel1 {
+  position: relative;
+  margin-top: 50px;
+  font-size: 75px;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  letter-spacing: -5px;
+}
+
+.erfarring-liste {
+  position: relative;
+  margin-top: -90px;
+  font-size: 14px;
+  font-weight: 250;
+  left: auto;
+  transform: none;
+  width: 92%;
+  text-align: left;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.erfarring-liste li {
+  margin-bottom: 12px;
 }
