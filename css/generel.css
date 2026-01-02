@@ -29,6 +29,10 @@ img {
   transform: none;
 }
 
+#blomst-logo {
+  color: #2c5090;
+}
+
 /* BURGER IKON */
 .burger {
   position: absolute;
