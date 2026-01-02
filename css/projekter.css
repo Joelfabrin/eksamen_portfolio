@@ -23,6 +23,16 @@
   background: #2c5090;
 }
 
+/* VECTOR STJERNE */
+.stjerne {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  color: white;
+}
+
 /*TITLER OG TEKST*/
 .title {
   position: absolute;
@@ -172,16 +182,5 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
-  color: white;
-}
-
-/* VECTOR STJERNE */
-
-.stjerne {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 125px;
   color: white;
 }
