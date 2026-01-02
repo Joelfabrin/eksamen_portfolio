@@ -33,13 +33,15 @@
 
 .paragraphs {
   position: absolute;
-  top: 75%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 370px;
   font-size: 18px;
   font-weight: 200;
   color: #1a1a1a;
+  letter-spacing: 3px;
+  line-height: 22px;
 }
 
 #p3 {
@@ -48,7 +50,7 @@
 
 .tekstlinje {
   position: absolute;
-  top: 110%;
+  top: 120%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 370px;
@@ -69,23 +71,30 @@
   object-fit: cover;
   object-position: center center;
   height: 100vh;
-  margin-top: 1000px;
+  margin-top: 1100px;
 }
 
 /* BLOMSTER OG TEKST TEMAER*/
 #blomst2 {
   position: absolute;
-  top: 135%;
+  top: 145%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140px;
   color: white;
+  transition: transform 200ms ease, filter 200ms ease;
+}
+
+#blomst2:hover {
+  color: #902c88;
+  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
 }
 
 .tema02 {
   position: absolute;
   font-weight: 100;
-  top: 120%;
+  top: 130%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
@@ -94,17 +103,22 @@
 /**/
 #blomst3 {
   position: absolute;
-  top: 160%;
+  top: 170%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140px;
   color: white;
 }
+#blomst3:hover {
+  color: #902c88;
+  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
+}
 
 .tema03 {
   position: absolute;
   font-weight: 100;
-  top: 145%;
+  top: 155%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
@@ -113,17 +127,22 @@
 /**/
 #blomst4 {
   position: absolute;
-  top: 185%;
+  top: 195%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140px;
   color: white;
 }
+#blomst4:hover {
+  color: #902c88;
+  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
+}
 
 .tema04 {
   position: absolute;
   font-weight: 100;
-  top: 170%;
+  top: 180%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
@@ -132,19 +151,35 @@
 /**/
 #blomst5 {
   position: absolute;
-  top: 210%;
+  top: 220%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 140px;
   color: white;
 }
+#blomst5:hover {
+  color: #902c88;
+  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
+}
 
 .tema05 {
   position: absolute;
   font-weight: 100;
-  top: 195%;
+  top: 205%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
+  color: white;
+}
+
+/* VECTOR STJERNE */
+
+.stjerne {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
   color: white;
 }

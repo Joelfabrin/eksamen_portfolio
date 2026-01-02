@@ -29,10 +29,10 @@
 .pf-logo {
   position: absolute;
   position: absolute;
-  top: 50%;
-  left: 24px;
+  top: 65%;
+  left: 15px;
   transform: translateY(-50%);
-  width: 300px;
+  width: 450px;
 }
 
 /* NAME */
