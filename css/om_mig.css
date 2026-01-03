@@ -27,7 +27,7 @@
 .navn {
   position: absolute;
   top: 20%;
-  left: 32%;
+  left: 34%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #1a1a1a;
@@ -37,7 +37,7 @@
 .dato {
   position: absolute;
   top: 26%;
-  left: 33%;
+  left: 36%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   color: #1a1a1a;
@@ -48,7 +48,7 @@
 .by {
   position: absolute;
   top: 31%;
-  left: 36%;
+  left: 37%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -59,7 +59,7 @@
 .email {
   position: absolute;
   top: 36%;
-  left: 44%;
+  left: 47%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -70,7 +70,7 @@
 .linkedin {
   position: absolute;
   top: 41%;
-  left: 36%;
+  left: 37%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
