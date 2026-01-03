@@ -27,9 +27,9 @@
 .stjerne {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
-  width: 125px;
+  width: 120px;
   color: white;
 }
 
@@ -37,9 +37,9 @@
 .title {
   position: absolute;
   top: 30%;
-  left: 35%;
+  left: 45%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 40px;
   color: #672744;
 }
 
