@@ -27,7 +27,7 @@
 .navn {
   position: absolute;
   top: 20%;
-  left: 35%;
+  left: 32%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #1a1a1a;
@@ -37,7 +37,7 @@
 .dato {
   position: absolute;
   top: 26%;
-  left: 36%;
+  left: 33%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   color: #1a1a1a;
@@ -48,7 +48,7 @@
 .by {
   position: absolute;
   top: 31%;
-  left: 38%;
+  left: 36%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -59,7 +59,7 @@
 .email {
   position: absolute;
   top: 36%;
-  left: 47%;
+  left: 44%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -70,7 +70,7 @@
 .linkedin {
   position: absolute;
   top: 41%;
-  left: 38%;
+  left: 36%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -81,7 +81,7 @@
 /*TITLER OG TEKST*/
 .title {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 35%;
   transform: translate(-50%, -50%);
   font-size: 40px;
@@ -93,7 +93,7 @@
 
 .stjerne {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 65%;
   transform: translate(-50%, -50%);
   width: 130px;
@@ -106,7 +106,7 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  margin-top: 410px;
+  margin-top: 450px;
 }
 
 /* TEKST UNDER VIDEO */
@@ -138,4 +138,107 @@
 
 .erfarring-liste li {
   margin-bottom: 12px;
+}
+
+.titel2 {
+  position: relative;
+  margin-top: 230px;
+  font-size: 75px;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  letter-spacing: -5px;
+  line-height: 70px;
+}
+
+.it-kompetencer-liste {
+  position: relative;
+  margin-top: -140px;
+  font-size: 14px;
+  font-weight: 250;
+  left: auto;
+  transform: none;
+  width: 92%;
+  text-align: left;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.it-kompetencer-liste li {
+  margin-bottom: 12px;
+}
+
+.titel3 {
+  position: relative;
+  margin-top: 170px;
+  font-size: 75px;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  letter-spacing: -5px;
+  line-height: 70px;
+}
+
+.uddannelse-liste {
+  position: relative;
+  margin-top: -100px;
+  font-size: 14px;
+  font-weight: 250;
+  left: auto;
+  transform: none;
+  width: 92%;
+  text-align: left;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.uddannelse-liste li {
+  margin-bottom: 12px;
+}
+
+.titel4 {
+  position: relative;
+  margin-top: 170px;
+  font-size: 75px;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  letter-spacing: -5px;
+  line-height: 70px;
+}
+
+.sprog-liste {
+  position: relative;
+  margin-top: -65px;
+  font-size: 14px;
+  font-weight: 250;
+  left: auto;
+  transform: none;
+  width: 92%;
+  text-align: left;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sprog-liste li {
+  margin-bottom: 12px;
+}
+
+/*BLOMST SVG I BUNDEN*/
+#blomst1 {
+  width: 80px;
+  display: block;
+  margin: 160px auto 50px;
+}
+.blomst {
+  color: #672744;
 }
