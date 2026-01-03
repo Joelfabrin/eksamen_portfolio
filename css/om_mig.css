@@ -34,21 +34,10 @@
   letter-spacing: -3px;
 }
 
-.dato {
-  position: absolute;
-  top: 26%;
-  left: 36%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: #1a1a1a;
-  letter-spacing: 10px;
-  font-weight: 200;
-}
-
 .by {
   position: absolute;
-  top: 31%;
-  left: 37%;
+  top: 29%;
+  left: 38%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -58,8 +47,8 @@
 
 .email {
   position: absolute;
-  top: 36%;
-  left: 47%;
+  top: 34%;
+  left: 46%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
@@ -69,8 +58,8 @@
 
 .linkedin {
   position: absolute;
-  top: 41%;
-  left: 37%;
+  top: 39%;
+  left: 38%;
   transform: translate(-50%, -50%);
   font-size: 18px;
   color: #1a1a1a;
