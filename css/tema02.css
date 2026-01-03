@@ -1,6 +1,6 @@
 /* HEADER, LOGO OG BURGER*/
 .hero .logo {
-  width: 100px;
+  width: 80px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -24,15 +24,15 @@
 /* TITLER OG TEKST*/
 .title {
   position: relative;
-  margin-top: 250px;
+  margin-top: 280px;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 50px;
   color: #672744;
 }
 .tema02-title1 {
   position: relative;
-  margin-top: -90px;
+  margin-top: -40px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
