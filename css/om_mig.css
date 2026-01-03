@@ -47,7 +47,7 @@
 
 .email {
   position: absolute;
-  top: 34%;
+  top: 34.5%;
   left: 46%;
   transform: translate(-50%, -50%);
   font-size: 18px;
@@ -58,7 +58,7 @@
 
 .linkedin {
   position: absolute;
-  top: 39%;
+  top: 40%;
   left: 38%;
   transform: translate(-50%, -50%);
   font-size: 18px;
