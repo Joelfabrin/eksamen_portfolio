@@ -37,7 +37,8 @@
 .title {
   position: absolute;
   top: 40%;
-  left: 45%;
+  left: 15%;
+  width: 80px;
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #672744;
