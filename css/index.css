@@ -1,7 +1,7 @@
 /*LOGO, BURGER OG BG BILLEDE*/
 
 .hero .logo {
-  width: 100px;
+  width: 80px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -22,6 +22,7 @@
   object-position: center center;
   height: 100vh;
   margin-top: 0px;
+  border-bottom: 20px solid #2c5090;
 }
 
 /*portfolio logo*/

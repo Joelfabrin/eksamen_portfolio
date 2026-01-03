@@ -21,29 +21,6 @@
   background: #2c5090;
 }
 
-/* BUTTONS */
-.back-button {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  color: #672744;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 200;
-  z-index: 10;
-}
-
-.next-button {
-  position: relative;
-  margin-top: 1000px;
-  left: 40%;
-  color: #672744;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 200;
-  z-index: 10;
-}
-
 /* TITLER OG TEKST*/
 .title {
   position: relative;
@@ -89,4 +66,38 @@
   letter-spacing: 2px;
   line-height: 22px;
   font-weight: 250;
+}
+
+/* BUTTONS */
+.back-button {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  color: #672744;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  z-index: 10;
+}
+
+.next-button {
+  position: absolute;
+  margin-bottom: 60px;
+  right: 5%;
+  color: #672744;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  z-index: 10;
+}
+
+/*BLOMST SVG I BUNDEN*/
+#blomst1 {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 160px auto 50px;
+}
+.blomst {
+  color: #672744;
 }
