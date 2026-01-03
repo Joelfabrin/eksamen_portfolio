@@ -101,3 +101,21 @@
 .blomst {
   color: #672744;
 }
+
+/*LINK TIL SITE*/
+.link {
+  display: block;
+  width: 200px;
+  margin: 40px auto;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #672744;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: white;
+  color: #672744;
+}
