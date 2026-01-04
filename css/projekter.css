@@ -62,15 +62,14 @@
   margin-top: 60px;
 }
 
-.tekstlinje {
+.guide-tekst {
   position: absolute;
-  top: 135%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 370px;
-  font-size: 28px;
-  font-weight: 200;
-  color: #672744;
+  font-size: 18px;
+  color: white;
+  font-weight: 100;
 }
 
 /*TEAMER DISCO*/
