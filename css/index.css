@@ -87,13 +87,13 @@
   text-align: center;
   width: max-content;
   white-space: nowrap;
-  top: 85%;
+  top: 87%;
   left: 59%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 40px;
   letter-spacing: 75px;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 .efternavn {
@@ -104,7 +104,7 @@
   color: white;
   font-size: 40px;
   letter-spacing: 25px;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 /* DESKTOP MEDIA QUERY */

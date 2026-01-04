@@ -47,7 +47,7 @@
 
 .paragraphs {
   position: absolute;
-  top: 90%;
+  top: 105%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 370px;
@@ -68,6 +68,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
+  width: 100%;
+  text-align: center;
   color: white;
   font-weight: 100;
 }
