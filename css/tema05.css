@@ -68,6 +68,21 @@
   font-weight: 250;
 }
 
+/* BILLEDER */
+.tema05billede1 {
+  display: block;
+  margin: 90px auto 90px;
+  width: 350px;
+  height: auto;
+}
+
+.tema05billede2 {
+  display: block;
+  margin: 90px auto 100px;
+  width: 350px;
+  height: auto;
+}
+
 /* BUTTONS */
 .back-button {
   position: absolute;
