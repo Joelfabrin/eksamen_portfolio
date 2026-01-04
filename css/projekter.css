@@ -7,6 +7,7 @@
 #blomst-logo {
   color: #2c5090;
 }
+
 .hero {
   position: relative;
 }
@@ -117,7 +118,6 @@
 
 #blomst2:hover {
   color: #902c88;
-  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
   filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
 }
 
@@ -133,7 +133,6 @@
 }
 #blomst3:hover {
   color: #902c88;
-  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
   filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
 }
 
@@ -149,7 +148,6 @@
 }
 #blomst4:hover {
   color: #902c88;
-  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
   filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
 }
 
@@ -165,7 +163,6 @@
 }
 #blomst5:hover {
   color: #902c88;
-  transform: translate(-50%, -50%) scale(1.06) rotate(-2deg);
   filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.35));
 }
 
@@ -173,4 +170,133 @@
   font-weight: 100;
   font-size: 25px;
   color: white;
+}
+
+/* DESKTOP MEDIA QUERY */
+
+@media (min-width: 1024px) {
+  /*LOGO OG HEADER*/
+  .hero .logo {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  #blomst-logo:hover {
+    color: #672744;
+  }
+
+  .nav ul li a {
+    color: #2c5090;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    margin-right: 26px;
+  }
+
+  .nav ul li a:hover {
+    font-weight: 500;
+    letter-spacing: 20px;
+  }
+
+  .hero-bg {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    height: 100vh;
+    margin-top: 0px;
+    border-bottom: 20px solid #2c5090;
+  }
+
+  /* VECTOR STJERNE */
+  .stjerne {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    color: white;
+  }
+
+  /*TITLER OG TEKST*/
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #672744;
+    word-spacing: 200px;
+  }
+
+  .paragraphs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+    width: 900px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #1a1a1a;
+    letter-spacing: 3px;
+    line-height: 28px;
+  }
+
+  #p3 {
+    grid-column: 1 / -1;
+  }
+
+  .tekstlinje {
+    position: absolute;
+    top: 120%;
+    left: 1%;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 200;
+    color: #672744;
+  }
+
+  .lower-content > .tema-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px;
+    align-items: start;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .guide-tekst {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+  }
+
+  #blomst2,
+  #blomst3,
+  #blomst4,
+  #blomst5 {
+    width: 250px;
+  }
+
+  .tema02,
+  .tema03,
+  .tema04,
+  .tema05 {
+    font-size: 30px;
+    transform: translateX(20%);
+  }
 }
