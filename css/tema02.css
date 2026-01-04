@@ -120,17 +120,18 @@
 /*LINK TIL SITE*/
 .link {
   display: block;
-  width: 200px;
-  margin: 40px auto;
-  padding: 10px 0;
+  width: 140px;
+  margin: 30px auto;
+  padding: 6px 0;
   text-align: center;
-  background-color: #672744;
-  color: white;
+  background-color: transparent;
+  color: #672744;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #672744;
+  border-radius: 999px;
 }
 .link:hover {
-  background-color: white;
-  color: #672744;
+  background-color: #672744;
+  color: white;
 }
