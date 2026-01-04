@@ -203,16 +203,6 @@
     letter-spacing: 20px;
   }
 
-  .hero-bg {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    object-position: center center;
-    height: 100vh;
-    margin-top: 0px;
-    border-bottom: 20px solid #2c5090;
-  }
-
   /* VECTOR STJERNE */
   .stjerne {
     position: absolute;
