@@ -174,18 +174,20 @@
   .fornavn {
     display: grid;
     place-items: center;
-    font-size: 50px;
-    letter-spacing: 250px;
+    font-size: 40px;
+    letter-spacing: 200px;
     top: 83%;
-    left: 60%;
+    left: 57%;
+    font-weight: 200;
   }
 
   .efternavn {
     display: grid;
     place-items: center;
-    font-size: 50px;
-    letter-spacing: 200px;
+    font-size: 40px;
+    letter-spacing: 150px;
     top: 90%;
     left: 55%;
+    font-weight: 200;
   }
 }
