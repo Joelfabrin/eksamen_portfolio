@@ -83,3 +83,28 @@ img {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+@media (min-width: 1024px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 40px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav {
+    margin-left: auto;
+  }
+
+  .nav ul {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+}

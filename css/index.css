@@ -26,7 +26,7 @@
 }
 
 /*portfolio logo*/
-.pf-log {
+.pf-logo {
   position: absolute;
   top: 50%;
   left: 10px;
@@ -37,7 +37,7 @@
   line-height: 140px;
 }
 
-.pf-log h1 {
+.pf-logo h1 {
   font-weight: 900;
 }
 
@@ -105,4 +105,85 @@
   font-size: 40px;
   letter-spacing: 25px;
   font-weight: 500;
+}
+
+/* DESKTOP MEDIA QUERY */
+@media (min-width: 1024px) {
+  .hero .logo {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .nav ul li a {
+    color: white;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 40px;
+  }
+
+  .nav ul li a:hover {
+    color: #2c5090;
+    font-weight: 500;
+  }
+
+  .hero-bg {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    height: 100vh;
+    margin-top: 0px;
+    border-bottom: 20px solid #2c5090;
+  }
+
+  .pf-logo {
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    width: 700px;
+    transform: translateY(-50%);
+    font-size: 85px;
+    color: white;
+    line-height: 160px;
+  }
+
+  .pf-logo {
+    font-size: 100px;
+  }
+
+  .rectangle {
+    width: 400px;
+    height: 250px;
+    top: 39%;
+    right: 60%;
+  }
+
+  .rectangle-text {
+    font-size: 20px;
+  }
+  .rectangle-text h2 {
+    font-weight: 300;
+  }
+
+  .fornavn {
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    letter-spacing: 300px;
+    top: 83%;
+    left: 60%;
+  }
+
+  .efternavn {
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    letter-spacing: 250px;
+    top: 90%;
+    left: 60%;
+  }
 }
