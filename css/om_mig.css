@@ -232,3 +232,245 @@
 .blomst {
   color: #672744;
 }
+
+/* DESKTOP MEDIA QUERY */
+
+@media (min-width: 1024px) {
+  .info-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 60px;
+    align-items: start;
+  }
+
+  .info-grid .video-col {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+  }
+
+  .info-grid > section {
+    grid-column: 1;
+  }
+
+  /*LOGO OG HEADER*/
+  .hero .logo {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  #blomst-logo:hover {
+    color: #672744;
+  }
+
+  .nav ul li a {
+    color: #2c5090;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    margin-right: 26px;
+  }
+
+  .nav ul li a:hover {
+    font-weight: 500;
+    letter-spacing: 20px;
+  }
+
+  /* NAVN OG INFO*/
+  .navn-info {
+    display: grid;
+    row-gap: 12px;
+    width: 92%;
+    margin: 120px auto 0;
+  }
+
+  .navn,
+  .by,
+  .email,
+  .linkedin {
+    position: static;
+    margin: 0;
+    transform: none;
+    color: #1a1a1a;
+    text-align: left;
+  }
+
+  .navn {
+    font-size: 40px;
+    letter-spacing: -3px;
+  }
+
+  .by,
+  .email,
+  .linkedin {
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .by,
+  .linkedin {
+    letter-spacing: 10px;
+  }
+
+  .email {
+    letter-spacing: 5px;
+  }
+
+  .navn-section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: start;
+  }
+
+  .profil-wrap {
+    grid-column: 2;
+    justify-self: end;
+  }
+
+  .profilbillede {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 100px;
+    border: #672744 solid 5px;
+  }
+
+  /*TITLER OG TEKST*/
+  .title {
+    position: static;
+    width: 92%;
+    margin: 80px auto 0;
+    transform: none;
+    font-size: 60px;
+    color: #672744;
+    letter-spacing: 40px;
+    word-spacing: 50px;
+    line-height: 75px;
+    text-align: left;
+  }
+  /* VECTOR STJERNE */
+
+  .stjerne {
+    position: absolute;
+    top: 67%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    color: white;
+  }
+
+  /* VIDEO */
+  .video {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 450px;
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  /* TEKST UNDER VIDEO */
+  .erfarring,
+  .it-kompetencer,
+  .uddannelse,
+  .sprog {
+    display: grid;
+    row-gap: 24px;
+    width: 92%;
+    margin: 80px auto 0;
+  }
+
+  .titel1,
+  .titel2,
+  .titel3,
+  .titel4 {
+    position: static;
+    margin: 0;
+    left: auto;
+    transform: none;
+    width: 100%;
+    text-align: left;
+    font-size: 75px;
+    letter-spacing: -5px;
+    line-height: 70px;
+  }
+
+  .titel1 {
+    text-align: left;
+    line-height: 75px;
+  }
+
+  .erfarring-liste {
+    font-size: 14px;
+    font-weight: 250;
+    text-align: left;
+    line-height: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .erfarring-liste li {
+    margin-bottom: 12px;
+  }
+
+  .titel2 {
+    line-height: 70px;
+  }
+
+  .it-kompetencer-liste {
+    font-size: 14px;
+    font-weight: 250;
+    text-align: left;
+    line-height: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .it-kompetencer-liste li {
+    margin-bottom: 12px;
+  }
+
+  .titel3 {
+    line-height: 70px;
+  }
+
+  .uddannelse-liste {
+    font-size: 14px;
+    font-weight: 250;
+    text-align: left;
+    line-height: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .uddannelse-liste li {
+    margin-bottom: 12px;
+  }
+
+  .titel4 {
+    line-height: 70px;
+  }
+
+  .sprog-liste {
+    font-size: 14px;
+    font-weight: 250;
+    text-align: left;
+    line-height: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .sprog-liste li {
+    margin-bottom: 12px;
+  }
+}
