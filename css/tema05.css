@@ -139,3 +139,103 @@
   background-color: #672744;
   color: white;
 }
+
+/* DESKTOP MEDIA QUERY */
+
+@media (min-width: 1024px) {
+  /*LOGO OG HEADER*/
+  .hero .logo {
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  #blomst-logo:hover {
+    color: #672744;
+  }
+
+  .nav ul li a {
+    color: #2c5090;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    margin-right: 26px;
+  }
+
+  .nav ul li a:hover {
+    font-weight: 500;
+    letter-spacing: 20px;
+  }
+
+  .title {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 60px;
+    row-gap: 30px;
+    align-items: start;
+    padding-left: 40px;
+    font-size: 50px;
+    color: #672744;
+  }
+
+  main > section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 60px;
+    row-gap: 30px;
+    align-items: start;
+  }
+
+  .paragraphs {
+    grid-column: 1;
+    width: 80%;
+    padding-left: 40px;
+  }
+
+  .tema05-title1,
+  .tema05-title2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+  }
+  #p1,
+  #p2,
+  #p3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .tema05billede1,
+  .tema05billede2 {
+    grid-column: 2;
+    justify-self: center;
+    margin: 0;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  main > section:nth-of-type(2) .paragraphs {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  main > section:nth-of-type(2) .tema05-title2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .tema05billede2 {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .link {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
