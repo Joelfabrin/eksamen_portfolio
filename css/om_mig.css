@@ -1,3 +1,4 @@
+/* MOBILE */
 /*LOGO OG BURGER*/
 .hero .logo {
   width: 80px;
@@ -21,6 +22,35 @@
 
 .burger span {
   background: #2c5090;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.navn-section {
+  display: contents;
+}
+
+.info-grid {
+  display: contents;
+}
+
+.pb {
+  order: 80;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.profilbillede {
+  border: #672744 solid 5px;
+}
+
+.blomst-wrap {
+  order: 90;
 }
 
 /* NAVN OG INFO*/
@@ -238,7 +268,7 @@
 @media (min-width: 1024px) {
   .info-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     align-items: start;
   }
@@ -321,7 +351,7 @@
 
   .navn-section {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 1fr 1fr;
     column-gap: 40px;
     align-items: start;
   }

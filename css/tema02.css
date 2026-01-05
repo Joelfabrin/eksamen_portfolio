@@ -174,7 +174,7 @@
 
   .title {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     row-gap: 30px;
     align-items: start;
@@ -185,7 +185,7 @@
 
   .tema02-section {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     row-gap: 30px;
     align-items: start;
