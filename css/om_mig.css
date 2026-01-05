@@ -363,8 +363,8 @@ main {
 
   .profilbillede {
     display: block;
-    width: 100%;
-    max-width: 220px;
+    width: 300px;
+    max-width: none;
     height: auto;
     margin: 100px;
     border: #672744 solid 5px;
