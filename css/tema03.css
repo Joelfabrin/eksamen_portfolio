@@ -182,7 +182,7 @@
     color: #672744;
   }
 
-  main > section {
+  .tema03-section {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: 60px;
@@ -217,12 +217,12 @@
     max-width: 420px;
   }
 
-  main > section:nth-of-type(2) .paragraphs {
+  .tema03-section-secondary .paragraphs {
     grid-column: 2;
     grid-row: 2;
   }
 
-  main > section:nth-of-type(2) .tema03-title2 {
+  .tema03-section-secondary .tema03-title2 {
     grid-column: 2;
     grid-row: 1;
   }
